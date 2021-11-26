@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 100; 300 & display = swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    /*height: 100px;*/
+    background-color: #222222;
+    padding: 10px 20px 10px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    color: #F3F3F3;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px ;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section {
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 10px;
+}
+
+main section.gratis { 
+    background: url('delivery.png');
+    height: 350px;
+    width: 450px;
+    border-radius: 5px;
+    padding: 20px; /* PRESTAR ATENCIÓN EN LAS CARPETAS!!!*/
+    margin: 10px;
+
+}
+
+main section p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+
+main section span {
+    color: white;
+    font-weight: 500;
+}
+
+main section.pedido {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+main section div.conte {
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main section.pedido h3{
+    color: #FC200C;
+    font-weight: 700;/*grosor de la letra*/
+    font-size: 24px; 
+}
+main section h6 {
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+    /*line-height: 23px;*/
+    top: 220px;
+    right: 380px;
+}
+main section div.contenedor div.conte ol li {
+    position: relative;
+    font-size: 16px;
+    margin: 10px;
+    right: 80px;;
+    font-weight: 500;
+}
+main section div.contenedor img {
+    position: relative;
+    width: 150px;
+    height: 129px;
+    left: 50px;
+
+}
+main section.pedido div.contenedor{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section.pedido div.contenedor div.conte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.pedido div.contenedor div.conte{
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+main section.pedido div.contenedor div.conte {
+    margin: 15px;
+}
+
+footer {
+    background-color: #222222;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    height: 150px;
+}
+footer nav ul li  {
+    font-size: 16px;
+    padding: 10px;
+    height: 30px;
+    color: #F3F3F3;
+    text-align: left;
+}
+
+footer img { 
+    position: absolute;
+    right: 55px;
+    height: 70px; /*Alto*/
+    margin: 20px;
+
+}

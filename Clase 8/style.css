@@ -1,0 +1,59 @@
+header {
+    background-color: cadetblue;
+}
+
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    
+    
+}
+h1 {
+    position: relative;
+    top: 50px;
+    left: 250px;
+    box-sizing: border-box;
+    
+}
+main section h2{
+    position: relative;
+    top: 50px;
+    left: 40px;
+
+}
+main section p {
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    top: 60px;
+    left: 10;
+}
+div {
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+    header section ul {
+    position: relative;
+    top: -20px;
+    left: 900px;
+}
+main section h3 {
+    text-transform: uppercase;
+    position: relative;
+    background-color: cadetblue;
+    top: 50px;
+    margin: 10px;
+}
+main section ul li {
+    text-align: left;
+    position: relative;
+    top: 55px;
+    
+}
+main section ul span {
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+header {
+background-color: #E5E5E5;
+text-align: center;
+
+}
+h1{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+main section h3{
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+
+}
+main section ul li span {
+    font-weight: bold;
+}
+footer{
+    background-color: #005677;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}

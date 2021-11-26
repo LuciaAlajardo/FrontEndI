@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 100; 300 & display = swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+header {
+    height: 100px;
+    background-color: #222222;
+    padding: 10px 20px 10px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    color: #F3F3F3;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #F3F3F3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*para que no suban la imagen de la moto*/
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+main section {
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    color: #FC200C;
+}
+main section.Envío {
+    background-image: url(CSS/moto.png);
+}

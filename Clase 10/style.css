@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+header div.sup {
+    background-color: #D1891C;
+    padding: 2px 0px 2px 10px;
+    
+}
+header h1 {
+    background-color: #00669F;
+    padding: 10px 0 10px 20px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+section article {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: 100px 0;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0 0;
+}
+article div.corazón-Batman {
+    
+    text-align: left;
+    height: 215px;
+    padding: 10px;
+    background-image: url(fondoBatman.png);
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+article div.M.M {
+    text-align: left;
+    height: 215px;
+    padding: 10px;
+    background-image: url(fondoMujerM.png);
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+
+}
+
+article div.Maravilla {
+    text-align: left;
+    height: 215px;
+    padding: 10px;
+    background-image: url(fondoMujerM.png);
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+article div.Superman {
+    text-align: left;
+    height: 215px;
+    padding: 10px;
+    background-image: url(fondoSuperman.png);
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+article div.Harley {
+    text-align: left;
+    height: 215px;
+    padding: 10px;
+    background-image: url(fondoHarley.jpg);
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+}
+article div i {
+    color: red;
+    font-size: 24px;
+}
+
+article img {
+    position: absolute;
+    top: 148px;
+    left: 90px;
+    border-radius: 50%;
+    width: 124px;
+}
+article h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 60px 10px 0px 25px;
+}
+
+article p {
+    text-align: left;
+    padding: 15px;
+    bottom: 25px;
+}
+
+
+article button {
+    border: none;
+    color: #F3F3F3;
+    margin: 25px;
+    padding: 10px 30px;
+    background: #00669F;
+    
+    
+    
+}
+
+footer {
+    position: relative;
+    padding: 30px;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer img { 
+    position: absolute;
+    right: 25px;
+    width: 100px;
+    
+
+}
